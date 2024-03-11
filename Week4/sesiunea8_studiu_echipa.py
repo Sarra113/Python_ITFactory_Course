@@ -128,21 +128,36 @@ Numarul de caractere upper case este y
 """
 7. Functie care primeste o LISTA de numere si returneaza o LISTA doar cu numerele pozitive.
 """
-def numere_pozitive(lista: list):
-    """
-    Determinam numerele pozitive din lista
+# def numere_pozitive(lista: list):
+#     """
+#     Determinam numerele pozitive din lista
+#
+#     Parameters
+#     ----------
+#     lista : list
+#
+#     Return
+#     ------
+#     numere pozitive
+#     """
+#     nr_pozitive = [number for number in lista if number > 0]
+#     return nr_pozitive
+#
+#
+# lista_mea = [0, 9, -8, 77, -27]
+# print(numere_pozitive(lista_mea))
 
-    Parameters
-    ----------
-    lista : list
 
-    Return
-    ------
-    numere pozitive
-    """
-    nr_pozitive = [number for number in lista if number > 0]
-    return nr_pozitive
+def make_list(n: int, l=None) -> list:
+    if l is None:
+        l = []
+    for i in range(0, n):
+        l.append(i)
+    return l
 
 
-lista_mea = [0, 9, -8, 77, -27]
-print(numere_pozitive(lista_mea))
+print(make_list(3))
+print(make_list(12, [1, 2, 3]))
+print(make_list(5))
+
+

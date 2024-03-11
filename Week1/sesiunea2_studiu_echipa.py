@@ -65,17 +65,18 @@ else:
 # else:
 #     print(False)
 
+
 """
 7.
 x si y (int)
 Verifica si afiseaza daca sunt egale, daca nu, afiseaza care din ele este mai mare.
 """
 
-x = int(input('Numar'))
-y = int(input('Numar'))
-if x == y:
-    print(True)
-elif x > y:
-    print('X mai mare decat Y')
-elif y > x:
-    print('Y mai mare decat Y')
+# x = int(input('Numar'))
+# y = int(input('Numar'))
+# if x == y:
+#     print(True)
+# elif x > y:
+#     print('X mai mare decat Y')
+# elif y > x:
+#     print('Y mai mare decat Y')

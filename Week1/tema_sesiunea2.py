@@ -35,16 +35,20 @@
 # e. strip()
 
 # my_str = '    Vacanta    '
-# print(my_str.endswith('a')) # verifica daca se termina cu ceva anume
-# print(my_str.endswith('n',3, 5))
+# print(my_str.endswith('a'))  # verifica daca se termina cu ceva anume
+# print(my_str.endswith('n', 3, 5))
 # print(my_str.endswith('t', 4))
 # print(my_str.index('n'))
 # print(my_str.lower())
-# print(my_str.replace('V', 'o'))  # case sensitive
-# print(my_str.replace('a', 'o', 1)) # de cate ori sa fie inlocuit
-# print(my_str.strip()) # scapa de spatiile de la final si inceput
+# print(my_str.replace('v'.upper(), 'o'))  # case sensitive
+# print(my_str.replace('a', 'o', 1))  # de cate ori sa fie inlocuit
+# print(my_str.strip())  # scapa de spatiile de la final si inceput
 # my_str = 'nnVacanta...'  # sau de caractere de la final/inceput
 # print(my_str.strip('n.'))
+#
+# my_string2 = 'Vacanta mare'
+# print(my_string2.split('m'))   # returneaza o lista cu substrings. cand e setat pe none imparte la spatiile albe
+# # elimina ce ai pus in paranteza
 
 """
 EX4: Se dau doua variabile, a = 10, b = 2.
@@ -148,15 +152,15 @@ a. Citeste de la tastatura totalul cosului de cumparaturi al utilizatorului.
 b. Afiseaza pretul pe care utilizatorul trebuie sa il plateasca pe cumparaturi
 dupa aplicarea reducerii.
 '''
-cost_total = float(input('Costul total este de:'))
-if 100 <= cost_total <= 200:
-    print(cost_total - (cost_total * 0.10))
-elif 200 < cost_total <= 300:
-    print(cost_total - (cost_total * 0.15))
-elif 300 < cost_total <= 400:
-    print(cost_total - (cost_total * 0.20))
-elif cost_total > 400:
-    print(cost_total - (cost_total * 0.30))
+# cost_total = float(input('Costul total este de:'))
+# if 100 <= cost_total <= 200:
+#     print(cost_total - (cost_total * 0.10))
+# elif 200 < cost_total <= 300:
+#     print(cost_total - (cost_total * 0.15))
+# elif 300 < cost_total <= 400:
+#     print(cost_total - (cost_total * 0.20))
+# elif cost_total > 400:
+#     print(cost_total - (cost_total * 0.30))
 
 '''
 EX13:

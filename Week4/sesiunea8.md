@@ -236,12 +236,7 @@ si False daca numarul e impar.
 ceea ce face functia reutilizabila.
 - Exemplu:
 ```python
-def get_square(num):
-    return num * num
-
-for i in [1, 2, 3]:
-    result = get_square(i)
-    print(f'Square of {i} is {result}.')
+ 
 ```
 2. Intelegerea si structurarea codului
 - Functiile pot fi utilizate pentru a structura programul in blocuri

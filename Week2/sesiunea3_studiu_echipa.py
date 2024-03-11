@@ -22,11 +22,11 @@ c. Capitalizeaza acest caracter peste tot, mai putin pentru primul si ultimul ca
 # cuvant_final = first_letter + new_string + first_letter
 # print(cuvant_final)
 
-propozitie = input('Introdu propozitie: ')
-first = propozitie[0]
-mijloc_prop = propozitie[1:-1].replace(first, first.upper())
-final = first + mijloc_prop + propozitie[-1]
-print(final)
+# propozitie = input('Introdu propozitie: ')
+# first = propozitie[0]
+# mijloc_prop = propozitie[1:-1].replace(first, first.upper())
+# final = first + mijloc_prop + propozitie[-1]
+# print(final)
 
 
 

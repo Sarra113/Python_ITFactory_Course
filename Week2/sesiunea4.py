@@ -25,7 +25,7 @@
 # nr = int(contacte[0])
 # print(nr)
 
-""" DICȚIONARE """
+# """ DICȚIONARE """
 # contacte = {
 #     'Ana': '0722345678',
 #     'Marius': '0721549888',
@@ -81,7 +81,7 @@
 # city = cities[0]  # person['cities'][0]
 # print(city)
 
-""" SETURI """
+# """ SETURI """
 # set1 = {1, 2, 3, 4, 5}
 # print(f"Set 1: {set1}")
 # print("-"*40)

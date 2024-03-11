@@ -43,10 +43,10 @@ Afiseaza caracterul din mijloc.
 si salveaza fiecare cuvant intr-o variabila.
 - Afiseaza in consola ambele variabile pentru verificare.
 """
-# cuv1, cuv2, *_ = input('Introduceti un text: ').split() # by default dupa spatiu
+# cuv1, cuv2, *_ = input('Introduceti un text: ').split()  # by default dupa spatiu
 # print(cuv1)
 # print(cuv2)
-# print(*_) # print restul cuvintelor dupa primele doua. daca ar fi un singur cuvant am avea nevoie doar de _
+# print(*_)  # print restul cuvintelor dupa primele doua. daca ar fi un singur cuvant am avea nevoie doar de _
 
 
 """
@@ -129,7 +129,7 @@ b. Afiseaza string-ul fara ultimele x caractere.
 
 Exemplu: dacă ai ales 7 => 'Coral is either the stupidest animal or the smarte'
 """
-x = 'Coral is either the stupidest animal or the smartest rock'
+# x = 'Coral is either the stupidest animal or the smartest rock'
 # numar = int(input('Introdu un nr intreg: '))
 # print(x[: - numar])
 # de la inceput minus nr introdus! daca era [:numar] era de la inceput pana la idexul cu nr..
@@ -142,7 +142,7 @@ a. Salveaza intr-o variabila si afiseaza indexul de start al cuvantului rock
 b. Folosind variabila de la punctul a + slicing, afiseaza tot string-ul pana la acest cuvant
 """
 # prop = 'Coral is either the stupidest animal or the smartest rock'
-# index_rock = prop.rfind('r') # indexul de start al lui rock
+# index_rock = prop.rfind('r')   # indexul de start al lui rock
                                # str.rfind() - cauta o anumita valoare in strig si da ultima pozitie
 # print(index_rock)
 # print(prop[:index_rock])
@@ -162,17 +162,17 @@ Vei avea 3 optiuni:
     - Ai pierdut. Ai ales un numar mai mare. Ai ales x dar a fost y.
     - Ai ghicit. Felicitari! Ai ales x si zarul a fost y.
 """
-import random # pachet random
-
-dice_roll = random.randint(1, 6)
-nr_ales = int(input('Alege un nr de la 1 la 6: '))
-print(dice_roll)
-if nr_ales < dice_roll:
-    print(f'Ai pierdut. Ai ales un nr mai mic. Ai ales {nr_ales} dar a fost {dice_roll}')
-elif nr_ales > dice_roll:
-    print(f'Ai pierdut. Ai ales un nr mai mare. Ai ales {nr_ales} dar a fost {dice_roll}')
-elif nr_ales == dice_roll:
-    print(f'Ai ghicit. Ai ales {nr_ales} si zarul a fost {dice_roll}')
+# import random # pachet random
+#
+# dice_roll = random.randint(1, 6)
+# nr_ales = int(input('Alege un nr de la 1 la 6: '))
+# print(dice_roll)
+# if nr_ales < dice_roll:
+#     print(f'Ai pierdut. Ai ales un nr mai mic. Ai ales {nr_ales} dar a fost {dice_roll}')
+# elif nr_ales > dice_roll:
+#     print(f'Ai pierdut. Ai ales un nr mai mare. Ai ales {nr_ales} dar a fost {dice_roll}')
+# elif nr_ales == dice_roll:
+#     print(f'Ai ghicit. Ai ales {nr_ales} si zarul a fost {dice_roll}')
 
 """
 14.  

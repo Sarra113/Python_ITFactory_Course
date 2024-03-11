@@ -14,14 +14,14 @@
 #
 # print(str1.endswith('l'))
 # print(str1.index('n'))
-# print(str1.index('l'))   # daca nu gaseste da eroare
-# print(str1.find('l'))     # daca nu gaseste da -1
+# print(str1.find('l'))   # daca nu gaseste da -1
+# print(str1.index('l'))     # daca nu gaseste da eroare si se opreste codul - not ideal
 
 # x = 15
 # y = 2
 # print(x / y)
-# print(x // y)
-# print(x % y)
+# print(x // y)   # returneaza intregul, fara partea zecimala. rezultatul returnat va fi mai mic
+# print(x % y)    # rezultatul va fi mereu un int, nu float
 
 # inmultire pe stringuri
 # b = 'a'
@@ -58,13 +58,13 @@
 # elif 200 <= cost_total <= 300:
 #     print(cost_total - (cost_total * 0.15))
 
-v = int(input('Ce varsta ai?'))
-cetatenie = input('Unde locuiti?')
-locuinta = 'ro'
-if v >= 18 and cetatenie == locuinta:
-    print('Aveti drept de vot')
-else:
-    print('Nu aveti drept de vot')
+# v = int(input('Ce varsta ai?'))
+# cetatenie = input('Unde locuiti?')
+# locuinta = 'ro'
+# if v >= 18 and cetatenie == locuinta:
+#     print('Aveti drept de vot')
+# else:
+#     print('Nu aveti drept de vot')
 
 
 #     CURS
