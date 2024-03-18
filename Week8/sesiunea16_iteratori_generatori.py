@@ -38,7 +38,7 @@ si sa aiba acelasi comportament ca si functia range din Python.
 #             return x
 #         else:
 #             raise StopIteration
-#
+# ???
 #
 # numbers = Iterator()
 # print(iter(numbers))
@@ -96,17 +96,39 @@ parametru va fi ridicat.
 """
 
 
-def my_gen(nr, puterea_maxima):
-    x = 1
-    while x <= puterea_maxima:
-        yield nr ** x
-        x += 1
+# def my_gen(nr, puterea_maxima):
+#     x = 1
+#     while x <= puterea_maxima:
+#         yield nr ** x
+#         x += 1
+#
+#
+# puteri = my_gen(2, 6)
+#
+# for i in puteri:
+#     print(i)
 
 
-puteri = my_gen(2, 6)
+"""
+EX5: Implementeaza un context manager care va masura si va afisa
+durata de executie a codului executat.
+"""
+import time
 
-for i in puteri:
-    print(i)
+
+class Timer:
+    def __enter__(self):
+        self.start = time.time()
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.finish = time.time()
+        self.range = self.finish - self.start
+        print(f"Durata de executie: {self.range} secunde")
+
+
+with Timer():
+    for i in range(1_000_000_000):
+        pass
 
 
 
